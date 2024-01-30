@@ -1,22 +1,50 @@
+
 body {
     background-color: bisque;
 }
-
+#content {
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
 /* This is targeting a class in html */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: tan;
+}
 .nav_link {
     padding: 10px;
     color:brown;
     font-size: 1.1em;
 }
 img {
-    width: 300px;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
 }
-
+a {
+    color: gray;
+}
+nav a:hover {
+    color: blanchedalmond;
+    background-color: brown;
+}
 #main_title {
     font-size: 3em;
+    text-align: center;
 }
 
+p {
+    text-align: center;
+}
 #sub_title {
     color:blanchedalmond;
 }
-
+footer {
+    background-color: tan;
+    padding: 20px;
+}
+footer a {
+    color: blanchedalmond;
+}
