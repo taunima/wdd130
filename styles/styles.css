@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@600&family=Protest+Revolution&display=swap');
 
 body {
     background-color: bisque;
+    font-family: "Noto Sans JP", 'Brandley Hand', sans-serif;
 }
 #content {
     max-width: 1400px;
@@ -18,13 +20,17 @@ nav {
     color:brown;
     font-size: 1.1em;
 }
+
 img {
     width: 60%;
     display: block;
     margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid black;
 }
 a {
     color: gray;
+    font-family: "Protest Riot", 'Brandley Hand', sans-serif;
 }
 nav a:hover {
     color: blanchedalmond;
@@ -33,10 +39,21 @@ nav a:hover {
 #main_title {
     font-size: 3em;
     text-align: center;
+    font-family: "Noto Sans JP";
 }
 
 p {
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 50px 100px 0 50px;
+    background-color: bisque;
+    border: 5px solid black;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 30px;
 }
 #sub_title {
     color:blanchedalmond;
@@ -46,5 +63,5 @@ footer {
     padding: 20px;
 }
 footer a {
-    color: blanchedalmond;
+    color: black;
 }
