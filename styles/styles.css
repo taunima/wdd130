@@ -27,7 +27,15 @@ img {
     margin: 0 auto;
     border-radius: 50%;
     border: 5px solid black;
+    box-shadow: 15px 15px 20px gray;
+    transition: transform .5s;
 }
+
+img.hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
 a {
     color: gray;
     font-family: "Protest Riot", 'Brandley Hand', sans-serif;
@@ -40,6 +48,15 @@ nav a:hover {
     font-size: 3em;
     text-align: center;
     font-family: "Noto Sans JP";
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 40px;
+    border: 5px solid black;
+    border-top: none;
 }
 
 p {
@@ -64,4 +81,10 @@ footer {
 }
 footer a {
     color: black;
+}
+
+@media screen and (max-width : 900px) {
+    main {
+        display: block;
+    }
 }
