@@ -287,3 +287,22 @@ h2 {
         margin-top: 25px;
     }
 }
+
+/* Page 2 - Rivers */ 
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.idaho-river {
+    align-content: center;
+}
+
+.utah-river {
+    align-content: center;
+}
+
+h5 {
+    font-family: sans-serif, arial, helvetica;
+}
