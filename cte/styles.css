@@ -28,6 +28,7 @@ nav a {
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 nav a:hover {
@@ -163,3 +164,27 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* info-page */ 
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.brain-info {
+    grid-column: 5/7;
+}
+
+.info-grid h2 {
+    grid-column: 5/6;
+    text-align: center;
+}
+
+.info-grid h3 {
+    grid-column: 5/6;
+    text-align: center;
+}
+
+.cte_info {
+    grid-column: 5/6;
+}
